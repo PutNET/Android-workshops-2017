@@ -8,12 +8,24 @@
         android:id="@+id/text_hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="Hello World!"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="12dp"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_gravity="center_horizontal"
         android:text="Button" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plane_photo"
+        android:layout_gravity="center"/>
+
+
 
 </LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WarsztatyAndroid1</string>
+    <string name="string_z_pola_tekstowego">Nowy tekst</string>
 </resources>
